@@ -24,7 +24,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "payload": "^2.0.0",
-    "payload-functions": "^0.0.1-beta.1"
+    "payload-functions": "^0.0.1-beta.3"
   },
   "devDependencies": {
     "@types/express": "^4.17.9",

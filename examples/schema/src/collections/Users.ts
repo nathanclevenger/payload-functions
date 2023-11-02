@@ -1,5 +1,5 @@
 import { CollectionConfig } from 'payload/types'
-import { Text } from 'payload-functions/dist/fields/ProxyFields'
+import { Text } from 'payload-functions'
 
 export const Users: CollectionConfig = {
   slug: 'users',
@@ -8,6 +8,6 @@ export const Users: CollectionConfig = {
     useAsTitle: 'email',
   },
   fields: [
-    Text.name()
+    Text.name({ required: true })
   ],
 }

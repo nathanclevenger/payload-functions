@@ -1,9 +1,9 @@
 {
   "name": "payload-functions",
   "description": "Convenience Functions for Rapid Development of Payload CMS Apps",
-  "version": "0.0.1-beta.2",
-  "main": "dist/server.js",
-  "types": "dist/payload.config.d.ts",
+  "version": "0.0.1-beta.3",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "scripts": {
     "dev": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts nodemon",
