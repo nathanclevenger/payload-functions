@@ -1,0 +1,19 @@
+{
+  "name": "payload-github",
+  "version": "0.0.1",
+  "description": "Github Plugin for Payload CMS",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanclevenger/payload-functions.git"
+  },
+  "author": "Nathan Clevenger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanclevenger/payload-functions/issues"
+  },
+  "homepage": "https://github.com/nathanclevenger/payload-functions#readme"
+}
