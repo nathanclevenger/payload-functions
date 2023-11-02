@@ -14,8 +14,8 @@ import { $Context, Json5, Text } from 'payload-fields'
 export default $: $Context => ({
   Nodes: {
     name: Text,
-    subjectOf: [ $.Edges.subject ],
-    objectOf: [ $.Edges.object ],
+    subjectOf: [ $.巛.Edges.subject ],
+    objectOf: [ $.巛.Edges.object ],
     data: Json5,
   },
   Edges: {
