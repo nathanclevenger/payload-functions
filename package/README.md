@@ -19,7 +19,7 @@ export default $: $Context => ({
     data: Json5,
   },
   Edges: {
-    name: $ => `${subject.name} ${predicate} ${object.name}`,
+    name: ({ subject, predicate, object }) => `${subject.name} ${predicate} ${object.name}`,
     subject: $.Edges.subject,
     predicate: Text,
     object: $.Edges.object,
