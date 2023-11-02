@@ -15,7 +15,7 @@
     "payload": "cross-env PAYLOAD_CONFIG_PATH=index.ts payload"
   },
   "dependencies": {
-    "payload-functions": "^0.0.1-beta.1"
+    "payload-functions": "^0.0.1-beta.5"
   },
   "devDependencies": {
     "ts-node": "^9.1.1",
