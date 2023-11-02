@@ -9,10 +9,24 @@ yarn add payload-functions
 ## Usage
 
 ```typescript
-import { withPayload, Text, Row } from 'payload-functions'
+import { $Context, Json5, Text } from 'payload-fields'
 
-export default withPayload({
-
+export default $: $Context => ({
+  Nodes: {
+    name: Text,
+    subjectOf: [ $.Edges.subject ],
+    objectOf: [ $.Edges.object ],
+    data: Json5,
+  },
+  Edges: {
+    name: $ => `${subject.name} ${predicate} ${object.name}`,
+    subject: $.Edges.subject,
+    predicate: Text,
+    object: $.Edges.object,
+    data: Json5,
+  },
 })
+
+
 
 ```

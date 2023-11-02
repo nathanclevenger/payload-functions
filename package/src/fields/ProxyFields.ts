@@ -20,7 +20,7 @@ export const Collapsible = (fields: Field[], props: Partial<CollapsibleField> = 
 export const Date = FieldProxy<DateField>('date', {})
 export const Email = FieldProxy<EmailField>('email', {})
 export const Group = (fields: Field[], props: Partial<GroupField> = {}) => FieldProxy<GroupField>('group', { fields, ...props })
-export const JSON = FieldProxy<JSONField>('json', {})
+export const Json = FieldProxy<JSONField>('json', {})
 export const Number = FieldProxy<NumberField>('number', {})
 export const Point = FieldProxy<PointField>('point', {})
 export const Radio = FieldProxy<RadioField>('radio', {})
